@@ -1,5 +1,5 @@
 
-import 'package:firtter_app/Suggestions.dart';
+import 'package:firtter_app/Widgets/Suggestions.dart';
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
 
