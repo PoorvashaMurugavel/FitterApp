@@ -3,8 +3,10 @@ import 'package:firtter_app/Widgets/Suggestions.dart';
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
 
+import 'Widgets/Wallet.dart';
+
 void main(){
-  runApp(const MyApp());
+  runApp(const WalletApp());
 }
 
 class MyApp extends StatelessWidget{
