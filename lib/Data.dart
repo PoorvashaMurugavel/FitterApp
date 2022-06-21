@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 
 Color primaryColor = const Color(0xFFCADCED);
+Color XtextColor = Color.fromARGB(172, 0, 108, 103);
+Color OtextColor = Color.fromARGB(172, 109, 0, 24);
 
 List<BoxShadow> customShadow = [
   BoxShadow(
     color: Colors.white.withOpacity(0.5),
-    spreadRadius: -5,
+    spreadRadius: -4,
     offset: const Offset(-5, -5),
     blurRadius: 30
   ),
@@ -35,3 +37,19 @@ List expenses = [
   Colors.brown,
   Colors.green,
 ];
+
+
+class XandOBO{
+  Color backgroundColor = primaryColor;
+  String textValue = "";
+}
+
+final ButtonStyle raisedButtonStyle = OutlinedButton.styleFrom(
+  backgroundColor: Colors.black87,
+  
+  padding: EdgeInsets.symmetric(horizontal: 50, vertical: 20),
+  shape: const RoundedRectangleBorder(
+  borderRadius: BorderRadius.all(Radius.circular(30)),
+  ),
+);
+ 
